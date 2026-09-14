@@ -232,6 +232,7 @@ Las principales relaciones de la base de datos son:
 En el proyecto se crearon dos funciones.
 
 calcular_total_pedido()
+
 <img width="362" height="117" alt="image" src="https://github.com/user-attachments/assets/e588e345-8086-47be-b689-21f55b226084" />
 
 Esta función permite calcular el total de un pedido teniendo en cuenta
