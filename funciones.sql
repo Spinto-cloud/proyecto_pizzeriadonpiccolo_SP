@@ -149,4 +149,3 @@ SELECT calcular_ganancia_neta_diaria(
 	'2026-09-01',
     80000.00
 ) AS ganancia_neta;
-
