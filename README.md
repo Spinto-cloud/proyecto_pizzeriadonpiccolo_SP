@@ -242,6 +242,7 @@ Ejemplo:
 SELECT calcular_total_pedido(1);
 
 calcular_ganancia_neta_diaria()
+
 <img width="363" height="70" alt="image" src="https://github.com/user-attachments/assets/6f7b8dd7-b684-4bc4-b362-36a54e939152" />
 
 Esta función permite calcular la ganancia neta de un día.
@@ -258,6 +259,7 @@ SELECT calcular_ganancia_neta_diaria(
 );
 
 🔄 Procedimiento 
+
 <img width="366" height="62" alt="image" src="https://github.com/user-attachments/assets/5ca227bf-987c-455f-9b9c-9b7c37c3183a" />
 
 registrar_entrega()
@@ -276,6 +278,7 @@ CALL registrar_entrega(
 Se crearon tres triggers para automatizar diferentes procesos.
 
 descontar_stock_pizza
+
 <img width="495" height="111" alt="image" src="https://github.com/user-attachments/assets/27d0b92f-c8f3-49d6-800c-76dd6a0668c0" />
 
 Se ejecuta cuando se agrega una pizza a un pedido.
@@ -284,6 +287,7 @@ Su función es descontar automáticamente del inventario la cantidad de
 ingredientes utilizados para preparar esa pizza.
 
 registrar_cambio_precio
+
 <img width="410" height="73" alt="image" src="https://github.com/user-attachments/assets/c214c58a-0535-4969-89e9-39b0d5114e4d" />
 
 Se ejecuta cuando cambia el precio base de una pizza.
@@ -297,6 +301,7 @@ El trigger registra automáticamente:
 La información se guarda en la tabla historial_precios.
 
 liberar_domiciliario
+
 <img width="367" height="62" alt="image" src="https://github.com/user-attachments/assets/f7c6b047-847a-429d-8f30-b8f93e29739a" />
 
 Se ejecuta cuando se registra la hora de entrega de un domicilio.
@@ -308,6 +313,7 @@ estado disponible.
 Se crearon tres vistas para facilitar la consulta de información.
 
 vista_resumen_pedidos_cliente
+
 <img width="364" height="172" alt="image" src="https://github.com/user-attachments/assets/c869fe4f-e98e-46b1-b058-cd0b726efd6d" />
 
 Permite consultar:
@@ -321,6 +327,7 @@ SELECT *
 FROM vista_resumen_pedidos_cliente;
 
 vista_rendimiento_repartidores
+
 <img width="401" height="137" alt="image" src="https://github.com/user-attachments/assets/830f70c5-94c2-43c9-965e-2eea6c4b97a1" />
 
 Permite consultar información sobre el trabajo de los repartidores.
@@ -336,6 +343,7 @@ SELECT *
 FROM vista_rendimiento_repartidores;
 
 vista_ingredientes_bajo_stock
+
 <img width="365" height="65" alt="image" src="https://github.com/user-attachments/assets/7603c5c8-21ba-45d6-922c-dc07bcfcc416" />
 
 Permite consultar los ingredientes cuyo stock está igual o por debajo
@@ -352,40 +360,47 @@ diferentes consultas utilizando conceptos aprendidos durante el
 desarrollo del proyecto.
 
 BETWEEN
+
 <img width="395" height="233" alt="image" src="https://github.com/user-attachments/assets/e9b15410-f936-4b3e-83a8-681c1651e90c" />
 
 Se utilizó para consultar pedidos realizados dentro de un rango de
 fechas.
 
 GROUP BY y COUNT
+
 <img width="362" height="196" alt="image" src="https://github.com/user-attachments/assets/72191e68-e095-4445-b184-0fd38dfb8d0f" />
 
 Se utilizaron para identificar las pizzas que aparecen con mayor
 frecuencia en los pedidos.
 
 JOIN
+
 <img width="365" height="143" alt="image" src="https://github.com/user-attachments/assets/90512038-e3bb-4a64-a235-188ccc397aec" />
 
 Se utilizaron para relacionar información de diferentes tablas, por
 ejemplo, pedidos y repartidores.
 
 AVG
+
 <img width="365" height="134" alt="image" src="https://github.com/user-attachments/assets/fda1e294-5730-4c9d-802f-e0c8c597fea2" />
 
 Se utilizó para calcular el promedio del tiempo de entrega por zona.
 
 HAVING
+
 <img width="365" height="135" alt="image" src="https://github.com/user-attachments/assets/395254a2-9eb4-4657-8065-67f9ec6230bf" />
 
 Se utilizó para encontrar clientes cuyo gasto total supera un valor
 determinado.
 
 LIKE
+
 <img width="502" height="134" alt="image" src="https://github.com/user-attachments/assets/3fec105d-cb6f-4457-997d-ae4180b738b9" />
 
 Se utilizó para realizar búsquedas parciales por nombre de pizza.
 
 Subconsulta
+
 <img width="496" height="131" alt="image" src="https://github.com/user-attachments/assets/c356811c-1bc6-4559-8ff2-ed770888fab3" />
 
 Se utilizó para identificar clientes frecuentes que realizaron más de
